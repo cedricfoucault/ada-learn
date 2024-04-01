@@ -1,0 +1,3 @@
+,task,n_sessions,n_outcomes,p_c,outcome_sd
+0,ada-prob,15,75,0.05,
+1,ada-pos,6,75,0.1,0.03333333333333333

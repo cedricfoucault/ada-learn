@@ -1,0 +1,11 @@
+,0
+coef_cpp-control_median,0.8267800971204295
+coef_cpp-control_Q1,0.5570524368399015
+coef_cpp-control_Q3,0.920732359950551
+coef_cpp-control_IQR,0.36367992311064956
+coef_cpp-control_signed-rank_p,1.781293897222056e-17
+coef_relative-uncertainty-*-1-cpp-control_median,0.511817183243213
+coef_relative-uncertainty-*-1-cpp-control_Q1,0.2389606771577626
+coef_relative-uncertainty-*-1-cpp-control_Q3,0.7251735166174966
+coef_relative-uncertainty-*-1-cpp-control_IQR,0.48621283945973404
+coef_relative-uncertainty-*-1-cpp-control_signed-rank_p,1.2514236978313506e-15

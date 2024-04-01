@@ -1,0 +1,118 @@
+# Ignore __pycache__ folder
+__pycache__
+
+# Ignore all outputs saved in the results directory, except the results of the paper
+# which we include for reference.
+# In .gitignore, the exceptions are indicated by an exclamation mark (!).
+results/*
+# The below two lines are a bit ugly but necessary, otherwise the entire ada-learn_23-02-17 folder
+# will remain excluded despite the fact that we make exceptions for that folder's contents further down.
+!results/ada-learn_23-02-17
+results/ada-learn_23-02-17/*
+# Fig. 1 G and H
+!results/ada-learn_23-02-17/accuracy_subject-estimate_by_model-estimate_ada-pos.pdf
+!results/ada-learn_23-02-17/accuracy_subject-estimate_by_model-estimate_ada-prob.pdf
+# Table S1 and S2
+!results/ada-learn_23-02-17/accuracy_subject-estimate_by_model-estimate_stats_pearsonr_ada-pos.csv
+!results/ada-learn_23-02-17/accuracy_subject-estimate_by_model-estimate_stats_pearsonr_ada-prob.csv
+!results/ada-learn_23-02-17/accuracy_subject-estimate_by_model-estimate_stats_slope_ada-pos.csv
+!results/ada-learn_23-02-17/accuracy_subject-estimate_by_model-estimate_stats_slope_ada-prob.csv
+# Fig. 6
+!results/ada-learn_23-02-17/bias-variance_decomposition_ada-pos.csv
+!results/ada-learn_23-02-17/bias-variance_decomposition_ada-pos.pdf
+!results/ada-learn_23-02-17/bias-variance_decomposition_ada-prob.csv
+!results/ada-learn_23-02-17/bias-variance_decomposition_ada-prob.pdf
+!results/ada-learn_23-02-17/bias-variance_decomposition_illustration-sequence_ada-pos.pdf
+!results/ada-learn_23-02-17/bias-variance_decomposition_illustration-sequence_ada-prob.pdf
+# Supplementary Text 4
+!results/ada-learn_23-02-17/corr_across_subs_between_tasks.csv
+!results/ada-learn_23-02-17/corr_across_subs_within_task.csv
+# Fig. 2C
+!results/ada-learn_23-02-17/illustration_adaptability_ada-pos.pdf
+!results/ada-learn_23-02-17/illustration_adaptability_ada-prob.pdf
+# Fig. 2 A and B
+!results/ada-learn_23-02-17/learning-rate_around_cp_ada-pos.pdf
+!results/ada-learn_23-02-17/learning-rate_around_cp_ada-prob.pdf
+!results/ada-learn_23-02-17/learning-rate_around_cp_corr-with-model_ada-pos.csv
+!results/ada-learn_23-02-17/learning-rate_around_cp_corr-with-model_ada-prob.csv
+# Fig. S2
+!results/ada-learn_23-02-17/learning-rate_around_cp_model_ada-pos.pdf
+!results/ada-learn_23-02-17/learning-rate_around_cp_model_ada-prob.pdf
+# Fig. S4 A and B
+!results/ada-learn_23-02-17/learning-rate_around_cp_use-only-trials-with-update_ada-pos.pdf
+!results/ada-learn_23-02-17/learning-rate_around_cp_use-only-trials-with-update_ada-prob.pdf
+# Fig. 5 A and B
+!results/ada-learn_23-02-17/learning-rate_regression_weights_cpp_uncertainty_ada-pos.pdf
+!results/ada-learn_23-02-17/learning-rate_regression_weights_cpp_uncertainty_ada-prob.pdf
+!results/ada-learn_23-02-17/learning-rate_regression_weights_cpp_uncertainty_stats_ada-pos.csv
+!results/ada-learn_23-02-17/learning-rate_regression_weights_cpp_uncertainty_stats_ada-prob.csv
+# Fig. 4A
+!results/ada-learn_23-02-17/learning-rate_regression_weights_cpp_uncertainty_model_ada-pos.pdf
+!results/ada-learn_23-02-17/learning-rate_regression_weights_cpp_uncertainty_model_ada-prob.pdf
+# Fig S4 C and D
+!results/ada-learn_23-02-17/learning-rate_regression_weights_cpp_uncertainty_stats_use-only-trials-with-update_ada-pos.csv
+!results/ada-learn_23-02-17/learning-rate_regression_weights_cpp_uncertainty_stats_use-only-trials-with-update_ada-prob.csv
+!results/ada-learn_23-02-17/learning-rate_regression_weights_cpp_uncertainty_use-only-trials-with-update_ada-pos.pdf
+!results/ada-learn_23-02-17/learning-rate_regression_weights_cpp_uncertainty_use-only-trials-with-update_ada-prob.pdf
+# Supplementary Text 2
+!results/ada-learn_23-02-17/learning-rate_regression_weights_cpp_uncertainty_control-as-in-mcguire_ada-pos.csv
+# Fig. 5 C, D, E, F
+!results/ada-learn_23-02-17/learning-rate_relationship_uncertainty_ada-pos.pdf
+!results/ada-learn_23-02-17/learning-rate_relationship_uncertainty_ada-prob.pdf
+!results/ada-learn_23-02-17/learning-rate_relationship_uncertainty_cpp_ada-pos.pdf
+!results/ada-learn_23-02-17/learning-rate_relationship_uncertainty_cpp_ada-prob.pdf
+# Fig. 4 C, D
+!results/ada-learn_23-02-17/learning-rate_relationship_uncertainty_cpp_model_ada-pos.pdf
+!results/ada-learn_23-02-17/learning-rate_relationship_uncertainty_cpp_model_ada-prob.pdf
+# Fig. S4 E, F, G, H
+!results/ada-learn_23-02-17/learning-rate_relationship_uncertainty_use-only-trials-with-update_ada-pos.pdf
+!results/ada-learn_23-02-17/learning-rate_relationship_uncertainty_use-only-trials-with-update_ada-prob.pdf
+!results/ada-learn_23-02-17/learning-rate_relationship_uncertainty_cpp_use-only-trials-with-update_ada-pos.pdf
+!results/ada-learn_23-02-17/learning-rate_relationship_uncertainty_cpp_use-only-trials-with-update_ada-prob.pdf
+# Fig. S5B
+!results/ada-learn_23-02-17/noisy_delta_rule_parameters_noise-level-constant_ada-pos.pdf
+!results/ada-learn_23-02-17/noisy_delta_rule_parameters_noise-level-constant_ada-prob.pdf
+!results/ada-learn_23-02-17/noisy_delta_rule_parameters_noise-level-prop-error_ada-pos.pdf
+!results/ada-learn_23-02-17/noisy_delta_rule_parameters_noise-level-prop-error_ada-prob.pdf
+# Fig. S5C
+!results/ada-learn_23-02-17/noisy_delta_rule_sim_learning-rate_regression_weights_noise-level-prop-error_ada-prob.pdf
+!results/ada-learn_23-02-17/noisy_delta_rule_sim_learning-rate_regression_weights_noise-level-prop-error_ada-pos.pdf
+!results/ada-learn_23-02-17/noisy_delta_rule_sim_learning-rate_regression_weights_noise-level-constant_ada-prob.pdf
+!results/ada-learn_23-02-17/noisy_delta_rule_sim_learning-rate_regression_weights_noise-level-constant_ada-pos.pdf
+!results/ada-learn_23-02-17/normative_effects_on_updating_illustration_determinants.pdf
+# Fig 3
+!results/ada-learn_23-02-17/normative_effects_on_updating_illustration_uncertainty-ada-pos_level-1_likelihood.pdf
+!results/ada-learn_23-02-17/normative_effects_on_updating_illustration_uncertainty-ada-pos_level-1_posterior.pdf
+!results/ada-learn_23-02-17/normative_effects_on_updating_illustration_uncertainty-ada-pos_level-1_prior.pdf
+!results/ada-learn_23-02-17/normative_effects_on_updating_illustration_uncertainty-ada-pos_level-2_likelihood.pdf
+!results/ada-learn_23-02-17/normative_effects_on_updating_illustration_uncertainty-ada-pos_level-2_posterior.pdf
+!results/ada-learn_23-02-17/normative_effects_on_updating_illustration_uncertainty-ada-pos_level-2_prior.pdf
+!results/ada-learn_23-02-17/normative_effects_on_updating_illustration_uncertainty-ada-prob_level-1_likelihood.pdf
+!results/ada-learn_23-02-17/normative_effects_on_updating_illustration_uncertainty-ada-prob_level-1_posterior.pdf
+!results/ada-learn_23-02-17/normative_effects_on_updating_illustration_uncertainty-ada-prob_level-1_prior.pdf
+!results/ada-learn_23-02-17/normative_effects_on_updating_illustration_uncertainty-ada-prob_level-2_likelihood.pdf
+!results/ada-learn_23-02-17/normative_effects_on_updating_illustration_uncertainty-ada-prob_level-2_posterior.pdf
+!results/ada-learn_23-02-17/normative_effects_on_updating_illustration_uncertainty-ada-prob_level-2_prior.pdf
+# Fig. S1
+!results/ada-learn_23-02-17/outcome_information_gain_studies.pdf
+# Fig. S6
+!results/ada-learn_23-02-17/performance_over_sessions_ada-pos.pdf
+!results/ada-learn_23-02-17/performance_over_sessions_ada-prob.pdf
+# Fig. 4 E and F
+!results/ada-learn_23-02-17/normative_variable_dynamics_example_ada-pos.pdf
+!results/ada-learn_23-02-17/normative_variable_dynamics_example_ada-prob.pdf
+# Fig. 4B
+!results/ada-learn_23-02-17/task_ranges_cpp.pdf
+!results/ada-learn_23-02-17/task_ranges_uncertainty.pdf
+# Fig. S3
+!results/ada-learn_23-02-17/update_interval_hist_ada-pos.csv
+!results/ada-learn_23-02-17/update_interval_hist_ada-pos.pdf
+!results/ada-learn_23-02-17/update_interval_hist_ada-prob.csv
+!results/ada-learn_23-02-17/update_interval_hist_ada-prob.pdf
+
+# Ignore extra generated stimulus sequences that aren't actually used in the experiment
+tasks/seq-data/*
+!tasks/seq-data/seq-data_pos_nsessions-100_ntrials-75_seed-1_pc-1by10_std-10by300_min-run-length-3.js
+!tasks/seq-data/seq-data_prob_nsessions-150_ntrials-75_seed-1_pc-1by20_min-run-length-6_apply-min-for-last-run-length_max-run-length-60_min-odd-change-4.js
+!tasks/seq-data/seq-data_pos-prob_ntrials-75_seed-1_nsessions-pos-100-prob-150_std-pos-10by300_pc-pos-1by10-prob-1by20_min-run-length-pos-3-prob-6_min-odd-change-prob-4_apply-min-for-last-run-length-prob_max-run-length-prob-60.js
+!tasks/seq-data/seq-data_pos-prob_ntrials-75_seed-1_nsessions-pos-100-prob-150_std-pos-10by300_pc-pos-1by10-prob-1by20_min-run-length-pos-3-prob-6_min-odd-change-prob-4_apply-min-for-last-run-length-prob_max-run-length-prob-60.csv

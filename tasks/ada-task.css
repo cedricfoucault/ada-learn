@@ -1,0 +1,109 @@
+html, body {
+  /* remove the extra whites around */
+  margin: 0;
+}
+
+body {
+  background-color: #F3F1F3;
+  font: 14px Arial, sans-serif;
+  line-height: 140%;
+}
+
+.title {
+  font: bold 20px Arial, sans-serif;
+}
+
+#canvas {
+  display: block;
+  position: absolute;
+}
+
+#instruction-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#instruction-image {
+  max-width: 800px;
+  max-height: 83.4vh;
+  display: block;
+  margin: 0 auto;
+}
+
+#instruction-image-to-navbutton-interspace {
+  height: 20px;
+}
+
+#instruction-progress-label {
+  color: #808080;
+  font: 10px Arial, sans-serif;
+}
+
+button {
+  background: none!important;
+  border: none!important;
+  padding: 0!important;
+  font: 14px Arial, sans-serif;
+  color: #0066CC;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#consent-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 680px;
+  text-align: center;
+}
+
+#requirements-check-failure-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 680px;
+  text-align: center; 
+}
+
+button#accept-consent-button {
+  font: bold 16px Arial, sans-serif;
+  min-width: 250px;
+  min-height: 42px;
+}
+
+button:hover {
+  color: #75B3F0;
+}
+
+button:disabled {
+  color: #8E8E93;
+  cursor: auto;
+}
+
+button.instruction-nav-button {
+  min-width: 200px;
+  min-height: 40px;
+}
+
+.center-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  font: 14px Arial, sans-serif;
+  color: #0066CC;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #75B3F0;
+}
+

@@ -1,0 +1,11 @@
+,0
+coef_cpp_mean,0.049339119100988336
+coef_cpp_sem,0.018934481455197084
+coef_cpp_t-test_t,2.6057813739306743
+coef_cpp_t-test_p,0.010641731675412545
+coef_uncertainty_mean,0.12186704182340051
+coef_uncertainty_sem,0.009720738826491816
+coef_uncertainty_t-test_t,12.536808569661156
+coef_uncertainty_t-test_p,7.468540477834166e-22
+coef-diff_t-test_t,-3.784268905771193
+coef-diff_t-test_p,0.00026973932608056485

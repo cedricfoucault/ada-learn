@@ -1,0 +1,9 @@
+,0
+Number of sequences effectively considered in the analysis,98.0
+Median across sequences of the number of subject estimations per sequence,6.0
+Mean across sequences of the number of subject estimations per sequence,5.857142857142857
+Proportion of total MSE attributed to bias (%),23.484154868258646
+Proportion of total MSE attributed to variance (%),76.51584513174136
+Standard error of the proportion of bias estimated by bootstrapping (%),1.1192191093360737
+Proportion of total MSE explained by the linear bias (%),3.138581576773464
+Standard error of the proportion of linear bias estimated by bootstrapping (%),0.6305229169272772

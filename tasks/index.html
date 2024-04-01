@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AdaLearn tasks</title>
+  <link rel="stylesheet" href="ada-task.css">
+</head>
+<body>
+  <div class=center-absolute>
+    <a href="ada-pos-task.html">AdaPos task →</a>
+    <div id="interspace" style="height: 36px"></div>
+    <a href="ada-prob-task.html">AdaProb task →</a>
+  </div>
+  <script>
+    // Pass URL search parameters to other pages linked from this page
+    let urlSearchString = window.location.search;
+    document.querySelectorAll("[href]").forEach(link => {
+        var currentHref = link.href;
+        link.href = currentHref + urlSearchString;
+    });
+  </script>
+</body>
+</html>

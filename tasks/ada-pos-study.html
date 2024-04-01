@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ada-Pos Study</title>
+  <link rel="stylesheet" href="ada-task.css">
+  <!-- 
+  /!\ In this project, we do not use the javascript 'import' statement
+  to load code dependencies from other JavaScript files.
+  This is a deliberate choice, because imports (modules) do not work
+  when running the code locally with the file:// protocol.
+  Instead, we make sure that all dependencies of a given javascript file
+  have been loaded previously from the HTML file.
+  This means we need to be careful with the order with which we load the javascript
+  files here in the HTML file. This is a bit cumbersome but I have not found a better
+  way to handle javascript dependencies while still keeping the ability to run the code with file://.
+  -->
+  <script src="load-url-search-params.js"></script>
+  <script src="prolific-info.js"></script>
+  <script src="utils.js"></script>
+  <script src="ada-learn-study-params.js"></script>
+  <script>
+    initStudyParams(ADA_POS);
+  </script>
+  <script src="ada-study-data.js"></script>
+  <script src="ada-study-step.js"></script>
+  <script src="animation.js"></script>
+  <script src="run-loop.js"></script>
+  <script>
+    const SEQUENCE_DATA_FILE = "seq-data/seq-data_pos_nsessions-100_ntrials-75_seed-1_pc-1by10_std-10by300_min-run-length-3.js";
+  </script>
+  <script src="seq-data/seq-data_pos_nsessions-100_ntrials-75_seed-1_pc-1by10_std-10by300_min-run-length-3.js"></script>
+  <script src="lang.js"></script>
+  <script src="ada-learn-task-UI.js"></script>
+  <script src="ada-learn-task-score.js"></script>
+  <!-- for pavlovia -->
+  <script src="pavlovia/vendors/jspsych-6.0.0/jspsych.js"></script>
+  <script src="pavlovia/vendors/jquery-2.2.0.min.js"></script>
+  <script src="pavlovia/jspsych-pavlovia-3.0.0.js"></script>
+  <script src="ada-study-pavlovia-manager.js"></script>
+</head>
+<body>
+  <canvas id="canvas" hidden></canvas>
+  <script src="ada-learn-task.js"></script>
+  <script src="check-requirements.js"></script>
+</body>
+</html>
