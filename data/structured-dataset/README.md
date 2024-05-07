@@ -7,31 +7,13 @@ This dataset accompanies the paper:
 > Cédric Foucault, and Florent Meyniel  
 > *Open Mind: Discoveries in Cognitive Science (2024)*   
 
-<!-- TBD once open mind article is available:
-  Update preprint version to open mind version -->
-Link to the article: [doi.org/10.1101/2023.08.18.553813](https://doi.org/10.1101/2023.08.18.553813) (preprint version).
+Link to the article: [doi.org/10.1162/opmi_a_00139](https://doi.org/10.1162/opmi_a_00139)
 
 If you use these data for your research, please cite the article.
-You can use the following BibTeX citation:
 
-<!-- TBD once open mind article is available:
-  Update Bibtex citation to use open mind version-->
-```bibtex
-@article{foucault2023two,
-  title={Two determinants of dynamic adaptive learning for magnitudes and probabilities},
-  author={Foucault, Cédric and Meyniel, Florent},
-  journal={bioRxiv},
-  pages={2023--08},
-  year={2023},
-  publisher={Cold Spring Harbor Laboratory}
-}
-```
-
-<!-- TBD once open mind article is available:
-  Update link to open mind version of the paper -->
 The data were collected online from participants recruited on [Prolific](https://www.prolific.com).
 Each participant completed an experiment in which they performed one or more learning tasks.
-See [the paper](https://doi.org/10.1101/2023.08.18.553813) and its companion [github repository](https://github.com/cedricfoucault/ada-learn) for more details about these experiments.
+See [the paper](https://doi.org/10.1162/opmi_a_00139) and its companion [github repository](https://github.com/cedricfoucault/ada-learn) for more details about these experiments.
 
 Study directories
 -----------------

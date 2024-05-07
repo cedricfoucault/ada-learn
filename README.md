@@ -7,11 +7,7 @@ This repository accompanies the paper:
 > Cédric Foucault, and Florent Meyniel  
 > *Open Mind: Discoveries in Cognitive Science (2024)*   
 
-<!-- TBD once open mind article is available:
-  Update preprint version to open mind version -->
-Link to the article: [doi.org/10.1101/2023.08.18.553813](https://doi.org/10.1101/2023.08.18.553813)
-(this link currently points to the preprint version as the article is still in press
-at Open Mind; it will be updated when the article is published).
+Link to the article: [doi.org/10.1162/opmi_a_00139](https://doi.org/10.1162/opmi_a_00139)
 
 Three essential elements of this work are provided in this repository that allow
 others to replicate and build upon this work.
@@ -30,22 +26,6 @@ reproduce all the results and figures of the paper.
 Each element is described below in a dedicated section.
 
 If you use this repository for your research, please cite the above paper.
-
-<!-- TBD once open mind article is available:
-  Update the below BibTex citation to the Open Mind version, and add the below text to the README.  
-
-You can use the following BibTeX citation:
-```bibtex
-@article{foucault2023two,
-  title={Two determinants of dynamic adaptive learning for magnitudes and probabilities},
-  author={Foucault, Cédric and Meyniel, Florent},
-  journal={bioRxiv},
-  pages={2023--08},
-  year={2023},
-  publisher={Cold Spring Harbor Laboratory}
-}
-```
--->
 
 
 Tasks
